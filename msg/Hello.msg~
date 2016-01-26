@@ -1,0 +1,2 @@
+int32 msg_code 
+string msg_content

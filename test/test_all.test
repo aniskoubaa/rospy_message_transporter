@@ -1,0 +1,6 @@
+<launch>
+	<test test-name="test_message_formatter" pkg="rospy_message_transporter" type="test_message_formatter.py" />
+	<test test-name="test_message_handler" pkg="rospy_message_transporter" type="test_message_handler.py" />
+	 <test test-name="test_message_transporter" pkg="rospy_message_transporter" type="test_message_transporter.py" />
+	<test test-name="test_tcp_message_transporter" pkg="rospy_message_transporter" type="test_tcp_message_transporter.py" />
+</launch>
